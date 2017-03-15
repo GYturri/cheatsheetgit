@@ -1,0 +1,8 @@
+// Comandos iniciales
+-> git --version // nos muestra la version de git
+-> git config --global user.name "Tu nombre :D" // grabas tu nombre como usuario
+-> git config --global user.email "Tu email :D" // grabas tu email de usuario
+-> git config --global color.ui true // interface, que no uso
+-> git config --global --list // muestra de talles de configuracion
+
+
