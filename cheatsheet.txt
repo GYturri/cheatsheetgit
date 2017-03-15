@@ -5,6 +5,7 @@
 -> git config --global user.email "Tu email :D" // grabas tu email de usuario
 -> git config --global color.ui true // interface, que no uso
 -> git config --global --list // muestra de talles de configuracion
+
 // comandos basicos
 -> git help // muestra los comandos
 -> git help push // muestra la ayuda del comando push, "Q" para salir
@@ -22,3 +23,16 @@
 -> git reset --mixed // tambien borra la intermedia
 -> git reset --hard // elimina el commit y te regresa al commit anterior
 
+// comandos de ramas
+-> git branch pruebas // crea una rama con el nombre pruebas
+-> git branch // muestra las ramas y tu ubicacion con (*)
+-> git checkout prueba // te lleva a esa rama
+-> git checkout master // antes de hacer fusion te vas a master 
+-> git merge pruebas // la rama pruebas se fusiona a master
+-> // fast forward // se realiza la fusion sin problemas
+-> // manual merge // cambios en misma parte en ambas ramas, toca eliminar una de los 2 en tu editor
+-> git branch -d pruebas // puedes eliminar la rama prueba
+-> git branch -m pruebas n_pruebas // renombrar una rama
+-> // al terminar una fusion, es necesario crear un nuevo commit
+-> git log --oneline --graph --all // muestra como log como grafico
+-> git config --global alias.nuevocomando 'git log --oneline' // crea un alias de comando
