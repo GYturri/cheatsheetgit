@@ -1,8 +1,24 @@
 // Comandos iniciales
 -> git --version // nos muestra la version de git
 -> git config --global user.name "Tu nombre :D" // grabas tu nombre como usuario
+-> git config --global user.name // nos muestra el nombre
 -> git config --global user.email "Tu email :D" // grabas tu email de usuario
 -> git config --global color.ui true // interface, que no uso
 -> git config --global --list // muestra de talles de configuracion
-
+// comandos basicos
+-> git help // muestra los comandos
+-> git help push // muestra la ayuda del comando push, "Q" para salir
+-> git init // inicia git dentro de la carpeta que estemos
+-> git status // estado de archivos para commit o detalles
+-> git add -A // prepara los cambios para hacer el commit
+-> git commit -m "mi mensaje" // crea el commit y como detalle coloca mi mensaje
+-> git commit -am "mi mensaje" //prepara cambios y crea el commit
+-> git log // muestra los commits realizados con sus detalles, "Q" para salir
+-> git log > commits.txt // guarda el resultado del anterior en commits.txt
+-> git checkout 7121690756... // te mueve a ese commit para verlo
+-> git checkout master // te lleva al ultimo commit
+-> // git reset
+-> git reset --soft // elimina el commit pero no te regresa, no borra de tu editor
+-> git reset --mixed // tambien borra la intermedia
+-> git reset --hard // elimina el commit y te regresa al commit anterior
 
