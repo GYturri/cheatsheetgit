@@ -36,3 +36,24 @@
 -> // al terminar una fusion, es necesario crear un nuevo commit
 -> git log --oneline --graph --all // muestra como log como grafico
 -> git config --global alias.nuevocomando 'git log --oneline' // crea un alias de comando
+
+// trabajo en GitHub
+-> // para bajar proyecto avanzado en GitHub
+-> git clone http..... // clona el ployecto de Github en mi pc
+-> touch readme.txt // puedes agregar el archivo de descripcion
+-> // despues de avanzar y realizar nuevos commits o subir algo que tienes a GitHub
+-> git remote add origin Http.... // agrega la direccion de origin a GitHub
+-> git remote -v // muestra las direcciones enlazadas
+-> git push origin master // empuja master a GitHub
+-> git fetch origin // descarga los cambios en GitHub en rama
+-> git branch -a // muestra todas las ramas
+-> git merge origin/master // fusiona la rama descargada de GitHub
+-> git pull origin // hace fetch y merge
+-> // repositorios forked, es necesario conectar a 2 repositorios en GutHub (tu fork y el proyecto)
+-> git remote add origin http... // conectar con mi fork
+-> git remote add upstream http.. // conectar al repositorio principal
+-> git fetch origin // descarga cambios, si no existen lo deja igual
+-> git fetch upstream // descarga cambios del principal
+-> git merge upstream/master // realiza una fusion con el actual del proyecto
+-> // si sale mensaje de crear mensaje, "o","tu mensaje","Esc",":x"
+-> // el pull request es desde GitHub, y desde ahy lo gestionas
