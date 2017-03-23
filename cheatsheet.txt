@@ -22,7 +22,12 @@
 -> git reset --soft // elimina el commit pero no te regresa, no borra de tu editor
 -> git reset --mixed // tambien borra la intermedia
 -> git reset --hard // elimina el commit y te regresa al commit anterior
+// ".gitignore" capeta que contiene informacion a no ser cargada
 
+// GitHub Pages
+// new repositorio, pones nombre
+// te vas a setings, github pages, puedes seleccionar un tema, editarlo y guardarlo
+// tambien puedes usar un proyecto tuyo, seleccionas tu rama y lo guardas
 // comandos de ramas
 -> git branch pruebas // crea una rama con el nombre pruebas
 -> git branch // muestra las ramas y tu ubicacion con (*)
